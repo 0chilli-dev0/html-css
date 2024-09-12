@@ -1,0 +1,29 @@
+@charset " UTF-8";
+  
+body{
+background-color: rgb(155, 219, 155);
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {color: rgb(4, 117, 4); 
+    text-align: center;
+}
+h2{
+    color: black;
+}
+ul > li {
+    display: none;
+}
+ul{
+    width: 600px;
+}
+h1#Principal {color: rgb(255, 255, 255);
+    text-align: center;
+    background-color:rgb(4, 117, 4) ;
+}
+ul:hover  {display:block;}
+.basico:hover {color:  rgb(61, 112, 61);
+} 
+.intermediario:hover{color:  rgb(119, 116, 65);}
+.avançado:hover{color:  rgb(112, 61, 61);}
+.destaque{background-color: rgba(151, 151, 60, 0.541);}
