@@ -25,6 +25,18 @@ header  a{
 header a:hover{
   text-decoration: underline;
 }
+div{
+    display: block;
+    height: 400px;
+    width: 300px;
+    font-size: large;
+    text-wrap:                
+}
+section{
+    background-image: url(../imagens/background001.jpg);
+    height: 500px;
+    background-size: calc(12)
+}
 footer{
     background-color: black;
     color: white;
