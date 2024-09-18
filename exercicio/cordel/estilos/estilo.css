@@ -7,6 +7,7 @@
     margin: 0%;
     font-family: cursive;
     font-size: 40px;
+    width: 100%;
 }
 *.texto{
     padding-left: 20px;
@@ -16,7 +17,6 @@
 header{
     background-color: black;
     height: 200px;
-    width: 100%;
     padding: 20px;
 }
 header h1{
@@ -41,7 +41,7 @@ header  a{
 header a:hover{
   text-decoration: underline;
 }
-div{
+div p{
     display: block;
     height: 400px;
     width: 500px;
@@ -55,8 +55,7 @@ section > article {
     background-color: rgba(0, 0, 0, 0.438);
     width: 600px;
     height: 400px;
-
-}
+    background-size: cover;}
 footer{
     background-color: black;
     color: white;
