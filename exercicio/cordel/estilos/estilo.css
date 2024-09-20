@@ -11,15 +11,15 @@
     font-style: italic;
 }
 *.texto{
-    padding-left: 20px;
     padding-top: 50px;
     margin-bottom: 90px;
+    margin-left: 20px;
+    padding-right: -30px;
     font-weight: bold;
 }
 header{
     background-color: black;
-    height: 230px;
-    padding: 20px;
+    max-width: 98vw;
 }
 header > h1{
     color: white;
@@ -37,6 +37,7 @@ header p{
     font-size: 20px;
     font-size: small;
     font-style: normal;
+    padding-bottom: 50px;
 }
 header  a{
     text-decoration: none;
@@ -49,31 +50,38 @@ header a:hover{
   text-decoration: underline;
 }
 div p{
-    display: block;
+    display: inline;
     height: 400px;
     width: 500px;
 }
 section.imagem1{
    background-image: url(../imagens/background001.jpg);
     height: 600px;
-    padding: 30px;
+    max-width: 98vw;
     background-size: cover;
+    background-attachment: fixed;
 }
 section.imagem2{
     background-image: url(../imagens/background002.jpg);
      height: 600px;
-     padding: 30px;
+     max-width: 98vw;
      background-size: cover;
+     background-attachment: fixed;
 }
 section > article {
     background-color: rgba(0, 0, 0, 0.438);
     width: 600px;
     height: 400px;
-    background-size: cover;
     color: white;
+    background-position: center left;
 }
 footer{
     background-color: black;
     color: white;
     text-align: center;
+    max-width: 98vw;
+}
+footer p{
+    font-style: normal;
+    font-size: 20px;
 }
