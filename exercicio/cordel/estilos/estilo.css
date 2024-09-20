@@ -8,35 +8,42 @@
     font-family: cursive;
     font-size: 40px;
     width: 100%;
+    font-style: italic;
 }
 *.texto{
     padding-left: 20px;
     padding-top: 50px;
     margin-bottom: 90px;
+    font-weight: bold;
 }
 header{
     background-color: black;
-    height: 200px;
+    height: 230px;
     padding: 20px;
 }
-header h1{
+header > h1{
     color: white;
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 10px;
+    padding-top: 50px;
     font-family: 'Passion One', cursive;
-    font-size: 90px
+    font-size: 130px;
+    font-style: normal;
+    font-variant: small-caps;
 }
+
 header p{
     color: white;
     text-align: center;
     font-size: 20px;
     font-size: small;
+    font-style: normal;
 }
 header  a{
     text-decoration: none;
     color: white;
     font-size: 20px;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header a:hover{
   text-decoration: underline;
@@ -46,16 +53,25 @@ div p{
     height: 400px;
     width: 500px;
 }
-section{
-    background-image: url(../imagens/background001.jpg);
+section.imagem1{
+   background-image: url(../imagens/background001.jpg);
     height: 600px;
     padding: 30px;
+    background-size: cover;
+}
+section.imagem2{
+    background-image: url(../imagens/background002.jpg);
+     height: 600px;
+     padding: 30px;
+     background-size: cover;
 }
 section > article {
     background-color: rgba(0, 0, 0, 0.438);
     width: 600px;
     height: 400px;
-    background-size: cover;}
+    background-size: cover;
+    color: white;
+}
 footer{
     background-color: black;
     color: white;
