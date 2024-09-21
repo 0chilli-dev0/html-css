@@ -6,7 +6,6 @@
 *{
     margin: 0%;
     padding: 0%;
-    font-style: italic;
 }
 body, html{
     min-height: 100vh;
@@ -19,11 +18,10 @@ header > h1{
     text-align: center;
     padding-top: 50px;
     font-family: 'Passion One', cursive;
-    font-size: 130px;
+    font-size: 10vw;
     font-style: normal;
     font-variant: small-caps;
 }
-
 header > p{
     color: white;
     text-align: center;
@@ -54,8 +52,9 @@ section.imagem2{
 section > article {
     background-color: rgba(0, 0, 0, 0.438);
     color: white;
-    width: 550px;
+    display: inline-block;
     background-position: center left;
+    padding: 5px;
 }
 section{
     padding-top: 10vh;
@@ -63,8 +62,8 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: cursive;
-    font-weight: 600;
-    font-size: 40px;
+    font-size: 3.5vw;
+    font-family:'sriracha', cursive;
 }
 footer{
     background-color: black;
