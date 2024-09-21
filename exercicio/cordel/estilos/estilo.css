@@ -42,13 +42,13 @@ header a:hover{
 section.imagem1{
    background-image: url(../imagens/background001.jpg);
     background-size: cover;
-    background-position: center right;
+    background-position: right center;
     background-attachment: fixed;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.425);
 }
 section.imagem2{
     background-image: url(../imagens/background002.jpg);
-    background-position: center right;
+    background-position: right center;
      background-size: cover;
      background-attachment: fixed;
      box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.425);
