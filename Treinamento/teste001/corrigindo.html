@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="Estilo/estilo-corrigido.css">
+</head>
+<body>
+<main>
+    
+            <div>
+                <h1 id="titulo">Cadastro de DEVs</h1>
+                <p id="subtitulo">Complete suas informações</p>
+            </div>
+            <form action="cadastro.php" method="post" autocomplete="on">
+                <fieldset class="grupo">
+                        <div class="campo">
+                            <label for="inome"><strong>Nome:</strong></label>
+                                <input class="pessoal" type="text" name="nome" id="inome" autocomplete="name" required>
+                        </div>
+                        <div class="campo">
+                            <label for="isobrenome"><strong>Sobrenome:</strong></label>
+                                <input class="pessoal" type="text" name="sobre" id="isobre" autocomplete="additional-name" required width="">
+                        </div>
+                    </fieldset>
+                <div class="campo">
+                    <label for="iemail"><strong>Email:</strong></label>
+                        <input class="pessoal" type="email" name="email" id="iemail" autocomplete="email" required>
+                </div>
+    
+                <div class="campo">
+                    <label><strong>De qual lado da aplicação você desenvolve?</strong></label>
+                        <label for="ifront">
+                        <input type="radio" name="dev" id="ifront" required>
+                        Front-end</label>
+                        <label for="iback">
+                        <input type="radio" name="dev" id="iback" required> Back-end
+                         </label>
+                        <label for="ifull">
+                        <input type="radio" name="dev" id="ifull" required> Full-stack
+                        </label>
+                </div>
+                <div class="campo">
+                    <label for="iseni"><strong>Senioridade</strong></label>
+                        <select name="senioridade" id="iseni" required>
+                            <option value="JR">Junior</option>
+                            <option value="PN">Pleno</option>
+                            <option value="SN">Sênior</option>
+                            <option value="" selected disabled>Selecione</option>
+                        </select>
+                </div>
+                <fieldset class="grupo">
+                    <div id="check">
+                        <label><strong>Selecione as tecnologias que utiliza:</strong></label><br>
+                        <input type="checkbox" name="html" id="ihtml">
+                        <label for="ihtml">HTML</label>
+                        <input type="checkbox" name="css" id="icss">
+                        <label for="icss">CSS</label>
+                        <input type="checkbox" name="JS" id="iJS">
+                        <label for="iJS">JavaScript</label>
+                        <input type="checkbox" name="php" id="iphp">
+                        <label for="iphp">PHP</label>
+                        <input type="checkbox" name="c" id="ic">
+                        <label for="ic">C#</label>
+                        <input type="checkbox" name="ph" id="iph">
+                        <label for="iph">Python</label>
+                        <input type="checkbox" name="java" id="ijava">
+                        <label for="ijava">Java</label>
+                    </div>
+                </fieldset>
+                <div class="campo">
+                    <br>
+                    <label for="itext"><strong>Conte um pouco mais da sua experiência:</strong></label required>
+                    <textarea name="text" id="itext" rows="6" style="width: 26em;"> </textarea>
+                </div>
+                <button class="botao" type="submit">Concluido</button>
+</main>
+        </form>
+    
+</body>
+</html>
